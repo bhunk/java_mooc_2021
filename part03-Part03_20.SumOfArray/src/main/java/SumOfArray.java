@@ -9,6 +9,9 @@ public class SumOfArray {
 
     public static int sumOfNumbersInArray(int[] array) {
         // Write some code here
+        for(int index:array){
+            System.out.println(index);
+        }
         return 0;
     }
 }
