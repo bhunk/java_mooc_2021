@@ -9,9 +9,17 @@ public class SumOfArray {
 
     public static int sumOfNumbersInArray(int[] array) {
         // Write some code here
-        for(int index:array){
-            System.out.println(index);
+        int index = 0;
+        int sum = 0;
+        while(index < array.length){
+            int num = array[index];
+            
+          //  System.out.println("number"+num);
+          //  System.out.println("index"+index);
+            index+=1;
+            sum = num + sum;
         }
-        return 0;
+        
+        return sum;
     }
 }
