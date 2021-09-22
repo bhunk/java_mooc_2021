@@ -6,7 +6,7 @@ public class AgeOfTheOldest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int max = 0;
-        int count = 0;
+        
 
         while (true) {
             String input = scanner.nextLine();
@@ -17,7 +17,7 @@ public class AgeOfTheOldest {
             String[] parts = input.split(",");
              
             
-            count = count + 1;
+            
             for (int counter = 1; counter < Integer.valueOf(parts[1]); counter++){
             if (Integer.valueOf(parts[1]) > max)
             {
